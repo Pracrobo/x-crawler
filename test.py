@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import async_playwright
 from datetime import datetime
 import pandas as pd
-urls = [""]
+urls = ["https://wikidocs.net/26"]
 
 async def process_page(page, url):
     await page.goto(url)
