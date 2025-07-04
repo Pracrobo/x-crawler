@@ -1,2 +1,3 @@
 *.ipynb
 *.xlsx
+.env
